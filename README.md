@@ -43,8 +43,7 @@ Set up Server with Smart Tomcat (plugin in IntelliJ)
    Welcome
    ![image](https://user-images.githubusercontent.com/20321663/132797767-d25009fd-d5e1-483e-800a-7ce38dd0748a.png)
 
-   There is no create user on the loggin page. 
-   There is a test Manager username: jtribiani password: mgeller
+   There is no create user on the login page, the idea is for the "admin" to create Finance Manager login. Finance Manager or "HR" is to create Employee logins. 
    
    ![image](https://user-images.githubusercontent.com/20321663/132802213-6f34d208-4ac6-4b90-aab2-505736759d1a.png)
 
