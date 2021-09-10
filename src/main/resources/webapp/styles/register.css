@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(237, 226, 143);
+}
+nav{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.register-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#register-form{
+    margin-top: 70px;
+    width: 500px;
+    background-color: whitesmoke;
+    box-shadow: rgb(63, 61, 61) 2px 2px 8px;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+#register-form div{
+    margin: 10px;
+}
+
+#firstName, #lastName, #email, #username, #password, #confPassword, #register-btn{
+    width: 100%;
+    padding: 5px;
+}
+
+#register-btn{
+    border: none;
+    background-color: rgb(233, 188, 41);
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#register-btn:hover{
+    background-color: rgb(221, 161, 32);
+    transition: 400ms;
+}

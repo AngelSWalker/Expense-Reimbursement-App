@@ -1,0 +1,11 @@
+
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Û‹Ž¡úÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(°Ÿ÷a
+<	java:S131""Add a default case to this switch.(…²–Õþÿÿÿÿ
+<	java:S131""Add a default case to this switch.(ÍÏ›õûÿÿÿÿ
+<	java:S1310""Add a default case to this switch.(ÍÏ›õûÿÿÿÿ
+f
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ÍÏ›õûÿÿÿÿ
+f
+java:S13010"KReplace this "switch" statement by "if" statements to increase readability.(ÍÏ›õûÿÿÿÿ

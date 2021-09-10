@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Company Reimbursement Login Page</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+<body>
+  <!-- Nav bar from bootstrap -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        Company Reimbursement Login
+      </a>
+    </div>
+  </nav>
+
+  <!-- login form -->
+
+  <div class="login-container">
+    <form id="login-form" >
+      <div>
+        <input type="text" id="username" placeholder="Username"/>
+      </div>
+      <div>
+        <input type="password" id="password" placeholder="Password"/>
+      </div>
+      
+      <!-- //buttons to get userRoleId 
+      <div class="btn-group" id= "role" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="employeeBtn" autocomplete="off" value = 1>
+        <label class="btn btn-outline-dark" for="employeeBtn">Employee</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="managerBtn" autocomplete="off" value = 2>
+        <label class="btn btn-outline-dark" for="managerBtn">Finance Manager</label>
+      </div>
+ -->
+      <div>
+        <button id="login-btn">Login</button>
+      </div>
+      <!-- <div>
+        <a href="../register/index.html">Register Account</a>
+      </div> -->
+
+      
+
+    </form>
+  </div>
+
+
+  <!-- global.js and login.js reference -->
+  <script src="../scripts/global.js"></script>
+  <script src="../scripts/login.js"></script>
+</body>
+</html>

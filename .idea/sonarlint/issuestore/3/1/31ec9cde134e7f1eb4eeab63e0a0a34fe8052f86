@@ -1,0 +1,9 @@
+
+Q
+java:S2441.";Make "Users" serializable or don't store it in the session.(„ÅŸÓ
+V
+java:S1128";Remove this unused import 'javax.servlet.http.HttpServlet'.(û÷Å›ÿÿÿÿÿ
+l
+java:S1192 "QDefine a constant instead of duplicating this literal "application/json" 4 times.(›ý’Àøÿÿÿÿ
+^
+java:S1192."HDefine a constant instead of duplicating this literal "userObj" 3 times.(„ÅŸÓ

@@ -1,0 +1,12 @@
+
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ
+Q	java:S125V"<This block of commented-out lines of code should be removed.(ÒÿÂó
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+e
+java:S2095A"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖÐ½
+e
+java:S2095%"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖÐ½
+^
+java:S2095!"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»

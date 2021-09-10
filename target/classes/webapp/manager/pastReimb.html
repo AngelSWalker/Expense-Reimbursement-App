@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Reimbursement Dashboard</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="../styles/pastReimb.css">
+</head>
+<body>
+    <!-- Nav bar from bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Reimbursements</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" id="backHome">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="pastReimb.html" style="color:rgb(233, 188, 41)">Past Reimbursements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="newEmployee">Create New Employee</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="btn btn-outline-danger" id="logout-btn">Logout</button>
+    
+      </nav>
+
+
+    <div class="welcome" id="welcome">
+    </div>
+    <div class="container-fluid">
+    <!-- container for past reimbursements -->
+    <h5>Past Requests:</h5>
+
+    <!-- filter approved or denied reimbursements -->
+    
+    <div class="btn-group" id= "role" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="approvedBtn" autocomplete="off" value = 1>
+        <label class="btn btn-outline-dark" for="approvedBtn">Aprroved</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="deniedBtn" autocomplete="off" value = 2>
+        <label class="btn btn-outline-dark" for="deniedBtn">Declined</label>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="past-reimb" id="container">
+            <div class="table-data">
+                <table class = "table" id="reimbPast-container"></table>
+            </div>
+        </div>
+    </div>
+
+    <!-- global.js and employee.js reference -->
+    <script src="../scripts/global.js"></script>
+    <script src="../scripts/pastReimb.js"></script>
+</body>
+</html>

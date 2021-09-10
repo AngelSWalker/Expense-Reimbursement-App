@@ -1,0 +1,52 @@
+
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ
+¡
+java:S1192¦"„Define a constant instead of duplicating this literal "UPDATE ers_reimbursement SET reimb_resolver = ? WHERE reimb_id =?;
+" 3 times.(İßïÅúÿÿÿÿ
+¤
+java:S1192§"‡Define a constant instead of duplicating this literal "UPDATE ers_reimbursement SET reimb_resolved = now() WHERE reimb_id =?;" 3 times.(‚¦Åşÿÿÿÿ
+w
+java:S1104"\Make reimbursementDao a static final constant or non-public and provide accessors if needed.(·¬¤­ùÿÿÿÿ
+Q
+java:S1444"6Make this "public static reimbursementDao" field final(·¬¤­ùÿÿÿÿ
+f
+java:S2095í"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+f
+java:S2095¨"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+_
+java:S2095á"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
+f
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+^
+java:S2095("HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
+f
+java:S2095Á"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+_
+java:S2095µ"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
+e
+java:S2095N"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+f
+java:S2095•"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+_
+java:S2095º"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
+f
+java:S2095Ö"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+f
+java:S2095¿"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095,"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+^
+java:S2095J"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
+_
+java:S2095Ñ"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
+e
+java:S2095q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+_
+java:S2095‹"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
+_
+java:S2095£"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
+_
+java:S2095‘"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
+^
+java:S2095m"HUse try-with-resources or close this "Connection" in a "finally" clause.(›’Û»
